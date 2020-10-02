@@ -1,0 +1,12 @@
+.chart-vn {
+    display: flex;
+  
+    > div {
+      width: 100% !important;
+      height: 400px !important;
+  
+      > span > svg {
+        border-radius: 6px;
+      }
+    }
+  }

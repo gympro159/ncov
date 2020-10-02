@@ -1,0 +1,231 @@
+.mr-20 {
+  margin-right: 20px !important;
+}
+
+.width-1400 {
+  width: 1400px !important;
+}
+
+.none-label {
+  display: none;
+}
+
+/* Footer
+-------------------------------------------------------------- */
+#footer {
+  background-color: #132646;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#footer-logo {
+  margin-bottom: 33px;
+  width: 115px;
+  height: auto;
+}
+
+/* Widget Link */
+#footer-widgets .widget.widget_links ul li a {
+  color: #8b93a2;
+  position: relative;
+  display: block;
+  padding-left: 18px;
+}
+#footer-widgets .widget.widget_links ul li a:before {
+  content: "\f101";
+  font-family: FontAwesome;
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #8b93a2;
+}
+#footer-widgets .widget.widget_links ul li:hover > a,
+#footer-widgets .widget.widget_links ul li:hover > a:before {
+  color: #fff;
+}
+#footer-widgets .widget.widget_links ul.col2 li {
+  width: 50%;
+  float: left;
+  padding: 0 0 8px;
+}
+
+/* Widget Infomation */
+#footer-widgets .widget.widget_information ul li {
+  padding: 0 0 0 37px;
+  position: relative;
+  border-bottom: 1px solid #abb5c8;
+  line-height: 50px;
+  color: #8b93a2;
+}
+#footer-widgets .widget.widget_information ul li i {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #c7c7c7;
+}
+
+/* Widget Socials */
+#footer .widget.widget_socials {
+  margin-top: 22px;
+}
+#footer .widget.widget_socials .socials .icon {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  float: left;
+  margin-right: 10px;
+}
+#footer .widget.widget_socials .socials .icon a {
+  display: block;
+  color: #8b93a2;
+}
+#footer .widget.widget_socials .socials .icon.active > a,
+#footer .widget.widget_socials .socials .icon:hover > a {
+  color: #fff;
+}
+
+/* Widget Title */
+
+#footer-widgets .widget .widget-title {
+  margin-right: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 33px;
+  color: #e3e3e3;
+}
+
+/* Form Footer*/
+.b-form-footer {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 40px;
+  height: 300px;
+
+  .b-contact-form {
+    .b-form-control-wrap {
+      width: 50%;
+      float: left;
+      input,
+      select {
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #383838;
+        padding: 15px;
+        width: 85%;
+      }
+      select {
+        width: 95%;
+      }
+    }
+  }
+}
+
+.checkme label,
+.checkbox label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 30px;
+  color: #fff;
+}
+
+// checkBox
+
+.bt {
+  border-bottom: 1px solid #d4cece;
+}
+.checkme {
+  padding: 10px;
+}
+.checkme label:before,
+.checkbox label:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  background-color: transparent;
+  padding: 2px;
+  border-radius: 50%;
+  border: 1px solid #fcf8f8;
+  background: transparent;
+}
+
+.checkme input[type="checkbox"],
+.checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.checkme input[type="checkbox"]:checked + label:before,
+.checkbox input[type="checkbox"]:checked + label:before {
+  content: "\2713";
+  font-size: 13px;
+  color: rgb(12, 204, 54);
+  text-align: center;
+  background-color: #fdfafa;
+  padding: 3px;
+  border-radius: 50%;
+  border: 1px solid rgb(194, 31, 19);
+  font-weight: 900;
+}
+
+.b-form select,
+.b-form textarea,
+.b-form input {
+  background-color: #f9f9f9;
+}
+
+/* Bottom
+-------------------------------------------------------------- */
+#bottom {
+  color: #8b93a2;
+  background-color: #0d1a2f;
+  a {
+    color: #8b93a2;
+  }
+  #bottom-bar-inner {
+    padding: 20px 0;
+  }
+  .bottom-bar-inner-wrap {
+    display: table;
+    overflow: hidden;
+    width: 100%;
+  }
+  .bottom-bar-content {
+    display: table-cell;
+    margin: 0;
+    text-align: left;
+    vertical-align: middle;
+    width: 50%;
+  }
+  .bottom-bar-menu {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    width: 50%;
+  }
+}
+
+/* Bottom Navigation */
+#bottom ul.bottom-nav {
+  list-style: none;
+  margin: 0;
+  li {
+    display: inline-block;
+    a {
+      padding: 0 20px;
+    }
+    &:last-child a {
+      padding-right: 0;
+    }
+    a:hover {
+      color: #fff;
+    }
+  }
+}

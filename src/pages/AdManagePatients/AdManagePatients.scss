@@ -1,0 +1,35 @@
+.tr-cursor {
+  cursor: pointer;
+}
+
+.btn-add {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  padding: 10px !important;
+  padding-right: 22px !important;
+  padding-left: 22px !important;
+  font-size: 30px;
+  border-radius: 30px !important;
+  color: #fff;
+  background-color: #0080ff;
+  margin-bottom: 20px;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gender-form {
+  margin-right: 90px;
+}
+
+.ml-70 {
+  margin-left: 70px;
+}
+
+.form-control:disabled {
+  background-color: #e9ecef;
+  opacity: 1;
+}
